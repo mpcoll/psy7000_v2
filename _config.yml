@@ -1,3 +1,7 @@
+# @Author: Your name
+# @Date:   2023-07-04 16:14:17
+# @Last Modified by:   Your name
+# @Last Modified time: 2023-07-04 16:25:41
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
@@ -8,7 +12,7 @@ logo: logo.png
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: force
+  execute_notebooks: auto
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -31,4 +35,8 @@ html:
   use_issues_button: true
   use_repository_button: true
 launch_buttons:
-  thebe: true
+  thebe-lite: true
+
+
+thebe:
+  lite: true
